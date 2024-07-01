@@ -1,3 +1,13 @@
+/* For mobile phones: */
+@media (max-width: 768px) {
+  /* CSS rules here */
+}
+
+/* For tablets and laptops: */
+@media (min-width: 769px) {
+  /* CSS rules here */
+}
+
 *{
         box-sizing: border-box;
 }
