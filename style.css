@@ -7,6 +7,17 @@
 @media (min-width: 769px) {
   /* CSS rules here */
 }
+.container {
+  width: 100%; /* Or use max-width for fluid width */
+  padding: 1em;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0.5em;
+  }
+}
+
 
 *{
         box-sizing: border-box;
